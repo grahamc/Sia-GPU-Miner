@@ -453,7 +453,7 @@ int main(int argc, char *argv[]) {
 	printf("Initializing...\n");
 	fflush(stdout);
 	FILE *fp;
-	const char fileName[] = "./sia-gpu-miner.cl";
+	const char fileName[] = "@out@/lib/sia-gpu-miner.cl";
 	size_t source_size;
 	char *source_str;
 	fp = fopen(fileName, "r");
